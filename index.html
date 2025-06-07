@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github user Find</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/x-icon" href="https://a.slack-edge.com/80588/img/plugins/github/service_512.png">
+
+  <script type="module" defer src="./Js/main.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav--brand">
+          <div class="nav--logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github Logo">
+          </div>
+          <p>Github</p>
+        </div>
+        <a href="#" class="nav--link">LogIn</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero--wrapper">
+      <h1 class="hero--title">Find Github User</h1>
+      <p class="hero--subtitle">Search for any Github user and get their details.</p>
+      <search>
+        <form class="search--form" id="searchForm">
+          <input type="text" class="search--input" placeholder="Enter Github username..." id="searchInput">
+          <button type="submit" class="search--button">Search</button>
+        </form>
+      </search>
+    </div>
+    <div class="search--resultsBox">
+      <div class="container">
+        <ul class="search--results" id="searchResults">
+
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
+</html>
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github user Find</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/x-icon" href="https://a.slack-edge.com/80588/img/plugins/github/service_512.png">
+
+  <script type="module" defer src="./Js/main.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav--brand">
+          <div class="nav--logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github Logo">
+          </div>
+          <p>Github</p>
+        </div>
+        <search>
+          <form class="search--form" id="searchForm">
+            <input type="text" class="search--input" placeholder="Enter Github username..." id="searchInput">
+            <button type="submit" class="search--button">Search</button>
+          </form>
+        </search>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="search--resultsBox">
+      <ul class="search--results" id="searchResults"></ul>
+    </div>
+  </section>
+
+  <section class="pagination">
+    <div class="container pagination--wrapper">
+      <ul class="pagination-list">
+        <li class="paginationCard">
+          <div class="paginationCard--header">
+            <img src="https://avatars.githubusercontent.com/u/196477?v=4" alt="f">
+            <h2>Fatih Kadir Akın</h2>
+          </div>
+          <div class="paginationCard--info">
+            <p><strong>name:</strong> f</p>
+            <p><strong>Bio:</strong> Building prompts.chat — JavaScript Developer. Ruby Lover. Author. — @GitHub Star.
+            </p>
+            <p><strong>Location:</strong> Istanbul, Turkey</p>
+            <p><strong>Followers:</strong> 9553</p>
+            <p><strong>Following:</strong> 149</p>
+            <p><strong>Repos:</strong> 257</p>
+          </div>
+          <a href="https://github.com/f" target="_blank">View Profile</a>
+          
+        </li>
+        <li class="paginationCard">
+          <div class="paginationCard--header">
+            <img src="https://avatars.githubusercontent.com/u/196477?v=4" alt="f">
+            <h2>Fatih Kadir Akın</h2>
+          </div>
+          <div class="paginationCard--info">
+            <p><strong>name:</strong> f</p>
+            <p><strong>Bio:</strong> Building prompts.chat — JavaScript Developer. Ruby Lover. Author. — @GitHub Star.
+            </p>
+            <p><strong>Location:</strong> Istanbul, Turkey</p>
+            <p><strong>Followers:</strong> 9553</p>
+            <p><strong>Following:</strong> 149</p>
+            <p><strong>Repos:</strong> 257</p>
+          </div>
+          <a href="https://github.com/f" target="_blank">View Profile</a>
+          
+        </li>
+        <li class="paginationCard">
+          <div class="paginationCard--header">
+            <img src="https://avatars.githubusercontent.com/u/196477?v=4" alt="f">
+            <h2>Fatih Kadir Akın</h2>
+          </div>
+          <div class="paginationCard--info">
+            <p><strong>name:</strong> f</p>
+            <p><strong>Bio:</strong> Building prompts.chat — JavaScript Developer. Ruby Lover. Author. — @GitHub Star.
+            </p>
+            <p><strong>Location:</strong> Istanbul, Turkey</p>
+            <p><strong>Followers:</strong> 9553</p>
+            <p><strong>Following:</strong> 149</p>
+            <p><strong>Repos:</strong> 257</p>
+          </div>
+          <a href="https://github.com/f" target="_blank">View Profile</a>
+          
+        </li>
+        <li class="paginationCard">
+          <div class="paginationCard--header">
+            <img src="https://avatars.githubusercontent.com/u/196477?v=4" alt="f">
+            <h2>Fatih Kadir Akın</h2>
+          </div>
+          <div class="paginationCard--info">
+            <p><strong>name:</strong> f</p>
+            <p><strong>Bio:</strong> Building prompts.chat — JavaScript Developer. Ruby Lover. Author. — @GitHub Star.
+            </p>
+            <p><strong>Location:</strong> Istanbul, Turkey</p>
+            <p><strong>Followers:</strong> 9553</p>
+            <p><strong>Following:</strong> 149</p>
+            <p><strong>Repos:</strong> 257</p>
+          </div>
+          <a href="https://github.com/f" target="_blank">View Profile</a>
+          
+        </li>
+        
+      </ul>
+
+      <ul class="pagination--buttons">
+        <li class="back" onclick="backNextPagination('back')">></li>
+
+        <li>
+          <ul></ul>
+        </li>
+
+        <li class="next" onclick="backNextPagination('next')">></li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+
+</html> -->
