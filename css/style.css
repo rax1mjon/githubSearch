@@ -152,6 +152,80 @@ search {
   margin-top: 20px;
 }
 
+.card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: calc(100% - 40px);
+  padding: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card--header {
+  grid-column: 1 / 3;
+}
+
+.card--info {
+  grid-column: 3 / 6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 16px;
+  object-fit: cover;
+  border: 4px solid #e1e4e8;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #2d2d2d;
+}
+
+.card p {
+  margin: 6px 0;
+  font-size: 15px;
+  color: #555;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 12px;
+  text-decoration: none;
+  background-color: #0366d6;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.card a:hover {
+  background-color: #024f9c;
+}
+.card span {
+  display: inline-block;
+  margin: 12px 0 0 auto;
+  text-decoration: none;
+  width: 60px;
+  background-color: #db221c;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in-out;
+  grid-column: 5 / 6;
+}
+
+.card span:hover {
+  background-color: #024f9c;
+}
 
 /*
 * {
@@ -506,7 +580,6 @@ search {
 }
 
  */
-
 
 /* **************** header end ******************  */
 
