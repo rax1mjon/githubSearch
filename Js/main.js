@@ -96,7 +96,3 @@ async function getUserToHTML(UserList, items) {
 
 // ***************** search end ***********************
 
-// ***************** pagination functions ***********************
-
-// let 
-
